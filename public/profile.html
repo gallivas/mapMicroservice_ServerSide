@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<header>
+    <h1>Roadtrip App</h1>
+    <nav>
+        <ul>
+            <li><a href="javascript:history.back()"><img src="/images/back-icon.png" alt="Back"></a></li>
+            <li><a href="home.html"><img src="/images/home-icon.png" alt="Home"></a></li>
+            <li><a href="profile.html"><img src="/images/profile-icon.png" alt="Profile"></a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h1>User Profile</h1>
+
+        <!-- User Image -->
+        <img src="/images/stephen-profile.png" alt="User Photo" id="userImage"><br />
+        
+        <input type="file" id="photoUpload" accept="image/*">
+        <button id="changePhotoBtn">Change Photo</button>
+        <p><i>(This will require camera roll access permissions.)</i></p>
+
+        <h2>About Me</h2>
+        <textarea id="bio" rows="4" cols="50">
+            This is where you can write a short bio about yourself. Share your interests, hobbies, or anything you'd like others to know about you.
+        </textarea>
+        <br><br>
+        <a href="#" id="helpButton">
+            <img src="/images/help-icon.png" alt="Help Icon" id="helpIcon">
+        </a>
+        <p>Help Center</p>
+        <div id="helpCenter"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<header>
+    <h1>Roadtrip App</h1>
+    <nav>
+        <ul>
+            <li><a href="javascript:history.back()"><img src="/images/back-icon.png" alt="Back"></a></li>
+            <li><a href="home.html"><img src="/images/home-icon.png" alt="Home"></a></li>
+            <li><a href="profile.html"><img src="/images/profile-icon.png" alt="Profile"></a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
