@@ -5,3 +5,5 @@
 # Instructions for how to programmatically RECEIVE data from the microservice:
 # Once an HTTP request is sent to the Google Maps API, if a connection to the API's server is made and the requested data exists, then we receive the response object containing the properties needed to display the appropriate map for the user.
 
+
+![alt text](https://github.com/gallivas/assignment1_app/public/images/Map Microservice BG.png)
