@@ -65,3 +65,8 @@ li {
     content: "\2713"; /* Unicode icon for checked state */
     background-color: #3498db; /* Change color when selected */
 }
+
+.show-map {
+    height: 400px;
+    width: 400px;
+}
