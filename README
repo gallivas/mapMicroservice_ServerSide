@@ -1,0 +1,7 @@
+# Instructions for how to programmatically REQUEST data from the microservice:
+# In this code, a user can select a country from an HTML dropdown menu. When the user clicks the "Submit" button, the chosen value populates as a URL parameter and it is used to make a request from the Google Maps API.
+# An example call following dropdown options is: <button onclick="codeAddress()">Submit</button> where the codeAddress() function executes the request.
+
+# Instructions for how to programmatically RECEIVE data from the microservice:
+# Once an HTTP request is sent to the Google Maps API, if a connection to the API's server is made and the requested data exists, then we receive the response object containing the properties needed to display the appropriate map for the user.
+
