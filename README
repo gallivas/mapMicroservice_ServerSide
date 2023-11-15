@@ -3,7 +3,7 @@
 # An example call following dropdown options is: <button onclick="codeAddress()">Submit</button> where the codeAddress() function executes the request.
 
 # Instructions for how to programmatically RECEIVE data from the microservice:
-# Once an HTTP request is sent to the Google Maps API, if a connection to the API's server is made and the requested data exists, then we receive the response object containing the properties needed to display the appropriate map for the user.
+# Once an HTTP request is sent to the Google Maps API, if a connection to the API's server is made and the requested data exists, then we receive the response object containing the properties needed to display the appropriate map for the user. The map will populate in the HTML <div> tag with id="map"
 
 
 ![alt text](https://raw.githubusercontent.com/gallivas/assignment1_app/main/public/images/Map%20Microservice%20BG.png)
