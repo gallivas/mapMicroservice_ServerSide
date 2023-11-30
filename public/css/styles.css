@@ -69,4 +69,5 @@ li {
 .show-map {
     height: 400px;
     width: 400px;
+    margin: auto;
 }
